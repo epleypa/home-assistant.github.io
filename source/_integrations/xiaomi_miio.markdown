@@ -1445,7 +1445,7 @@ Valid room numbers can be retrieved using miio command-line tool:
 miio protocol call <ip of the vacuum> get_room_mapping
 ```
 
-It will only give room numbers and not the room names. To mat the room numbers to your actual rooms, one can just test the clean_segment service with a number and see which room it cleans. The Xiaomi Home App will highlight the room after issuing the request, which makes the process rather convenient.
+It will only give room numbers and not the room names. To map the room numbers to your actual rooms, one can just test the clean_segment service with a number and see which room it cleans. The Xiaomi Home App will highlight the room after issuing the request, which makes the process rather convenient.
 
 It seems to be the case that Numbers 1..15 are used to number the intitial segmentation done by the vacuum cleaner itself. Numbers 16 and upwards numbers rooms from the users manual editing.
 
@@ -1649,7 +1649,7 @@ Please follow the instructions on [Retrieving the Access Token](/integrations/xi
 
 ### Xiaomi Smart WiFi Socket
 
-Supported models: `chuangmi.plug.m1`, `chuangmi.plug.m3`, `chuangmi.plug.v2`, `chuangmi.plug.hmi205`
+Supported models: `chuangmi.plug.m1`, `chuangmi.plug.m3`, `chuangmi.plug.v2`, `chuangmi.plug.hmi205`, `chuangmi.plug.hmi206`
 
 - Power (on, off)
 - Attributes
